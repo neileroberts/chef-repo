@@ -11,3 +11,9 @@ cron "chef-client" do
   command '/usr/bin/chef-client'
   action :create
 end
+
+cron "yum-update-norun" do 
+  hour '6,12,18'
+  command 'rm -rf /sysadmin/yum-update-norun'
+  action :create
+end
