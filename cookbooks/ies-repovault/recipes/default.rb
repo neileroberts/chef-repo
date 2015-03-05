@@ -30,6 +30,5 @@ execute '/sysadmin/ies-repovault.sh' do
 end
 
 execute 'yum update -y' do
-  
 end
 end

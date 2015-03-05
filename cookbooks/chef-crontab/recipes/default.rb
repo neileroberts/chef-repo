@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 cron "chef-client" do 
-  hour '*/1'
+  minute '*/30'
   command '/usr/bin/chef-client'
   action :create
 end
