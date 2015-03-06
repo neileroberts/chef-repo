@@ -1,5 +1,5 @@
-set-root-pw Cookbook
-====================
+make-sysadmin-folder Cookbook
+=============================
 TODO: Enter the cookbook description here.
 
 e.g.
@@ -11,14 +11,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - set-root-pw needs toaster to brown your bagel.
+- `toaster` - make-sysadmin-folder needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List your cookbook attributes here.
 
 e.g.
-#### set-root-pw::default
+#### make-sysadmin-folder::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['set-root-pw']['bacon']</tt></td>
+    <td><tt>['make-sysadmin-folder']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### set-root-pw::default
+#### make-sysadmin-folder::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `set-root-pw` in your node's `run_list`:
+Just include `make-sysadmin-folder` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[set-root-pw]"
+    "recipe[make-sysadmin-folder]"
   ]
 }
 ```
